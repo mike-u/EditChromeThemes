@@ -47,7 +47,8 @@ If you have a .jpg you want to use instead, that's fine. Just paste it into the 
 
 #Confirming changes and using new theme
 
-To see how your new theme looks, you can add it to Chrome. To do this, you'll need to enable Developer Mode. Go to Your chrome settings (chrome://extensions) and check the Developer Mode box. Click **Pack extension** and a window will open allowing you to select your folder. Navigate to your extension's version folder and select it. ![](http://i.imgur.com/eipyXle.png) 
+To see how your new theme looks, you can add it to Chrome. To do this, you'll need to enable Developer Mode. Go to Your chrome settings (chrome://extensions) and check the Developer Mode box. Click **Pack extension** and a window will open allowing you to select your folder. Navigate to your extension's version folder and select it.
+![](http://i.imgur.com/eipyXle.png) 
 
 Click OK and then you are ready to **Pack Extension**. You will receive a success message saying that Chrome made you a **.crx** and a **.pem**. The .crx is your new theme! Go back to that folder and double click it, opening it in Chrome. There should be a message at the bottom confirming that you want to continue adding the theme - go ahead and click continue, then OK, and that's it. Admire your new theme and give yourself a pat on the back - you just made your own awesome theme! 
 
