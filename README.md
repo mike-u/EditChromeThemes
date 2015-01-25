@@ -17,10 +17,10 @@ You will need to have downloaded a pre-existing Chrome theme to begin. Browse th
 	`C:\Users\**User Name**\AppData\Local\Google\Chrome\User Data\Default\Extensions`
 * ###OS X
 
-	Coming soon
+	Open Terminal and type `defaults write com.apple.finder AppleShowAllFiles YES` to show hidden files. Navigate to `~/Library/Application Support/Google/Chrome/Default` to find the folder containing Chrome extensions. You could also enter into a Terminal: 'sudo vi ~/.config/google-chrome/Default/Extensions/' to edit the file directly. *Disclaimer: I do not own a Mac and did not try this on OS X - if this doesn't work for you, please don't hesitate to contact me.
 * ###Linux
 
-	Coming soon
+	Open your file manager in root (`sudo nautilus` in Ubuntu) and press ctrl+h to see hidden files. Navigate to `~/.config/google-chrome/Default/Extensions/` to find the extensions. You could also enter into a Terminal: 'sudo vi ~/.config/google-chrome/Default/Extensions/' to edit the file directly.
 
 ##Find your theme
 In the folder you opened, you will find a long list of folders, all of which have titles that look like random letters.
