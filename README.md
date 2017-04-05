@@ -18,7 +18,7 @@ You will need to have downloaded a pre-existing Chrome theme to begin. Browse th
 * ### OS X
 
 	Open Terminal and type `defaults write com.apple.finder AppleShowAllFiles YES` to show hidden files. Navigate to `~/Library/Application Support/Google/Chrome/Default/Extensions` to find the folder containing Chrome extensions.
-* ###Linux
+* ### Linux
 
 	Open your file manager in root (`sudo nautilus` in Ubuntu) and press ctrl+h to see hidden files. Navigate to `~/.config/google-chrome/Default/Extensions/` to find the extensions. You could also enter into a Terminal: 'sudo vi ~/.config/google-chrome/Default/Extensions/' to edit the file directly.
 
