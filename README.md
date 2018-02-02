@@ -32,7 +32,7 @@ In the folder you opened, you will find a long list of folders, all of which hav
 
 The **manifest.json** file is the "command center" for your theme. It controls the layout and details of your theme. Right-click it and open it with a text editor. If you're in the right folder, it'll look something like this![](http://i.imgur.com/9buKhEm.png)
 
-You'll want to be careful with what you're editing in the manifest.json file, since it controls so much, but anything within the *theme* subsection should be fair game. [Google provides their own official documentation for theme attributes.](https://code.google.com/p/chromium/wiki/ThemeCreationGuide) You can change text colors by [changing the RGB values](http://www.colorpicker.com) associated with them.
+You'll want to be careful with what you're editing in the manifest.json file, since it controls so much, but anything within the *theme* subsection should be fair game. [Google provides their own official documentation for theme attributes.](https://developer.chrome.com/extensions/themes) You can change text colors by [changing the RGB values](http://www.colorpicker.com) associated with them.
 
 ![](http://i.imgur.com/ubP4q6I.png)
 
