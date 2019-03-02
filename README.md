@@ -1,7 +1,7 @@
 # How to edit Chrome Themes
 
 ## Introduction
-This is a guide to help you edit your existing Chrome themes to change the default text colors and background images on New Tab page. It is fairly simple to do, and should take around **15 minutes**.
+This is a guide to help you edit your existing Chrome themes to change the default text colors and background images on New Tab page. It is fairly simple to do, and should take around **15 minutes, more or less**.
 
 ## Getting started
 You will need to have [Google Chrome](https://www.google.com/chrome/browser/desktop/) installed on your computer as well as some text editor. I like [Sublime Text](http://www.sublimetext.com/2) but feel free to use any editor you like better.
