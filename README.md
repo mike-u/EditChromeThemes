@@ -20,7 +20,7 @@ You will need to have downloaded a pre-existing Chrome theme to begin. Browse th
 	Open Terminal and type `defaults write com.apple.finder AppleShowAllFiles YES` to show hidden files. Navigate to `~/Library/Application Support/Google/Chrome/Default/Extensions` to find the folder containing Chrome extensions.
 * ### Linux
 
-	Open your file manager in root (`sudo nautilus` in Ubuntu) and press ctrl+h to see hidden files. Navigate to `~/.config/google-chrome/Default/Extensions/` to find the extensions. You could also enter into a Terminal: 'sudo vi ~/.config/google-chrome/Default/Extensions/' to edit the file directly.
+	Open your file manager in root (`sudo nautilus` in Ubuntu) and press ctrl+h to see hidden files. Navigate to `~/.config/google-chrome/Default/Extensions/` to find the extensions. You could also enter into a Terminal: `sudo vim ~/.config/google-chrome/Default/Extensions/` to edit the file directly.
 
 ## Find your theme
 In the folder you opened, you will find a long list of folders, all of which have titles that look like random letters.
@@ -36,6 +36,8 @@ You'll want to be careful with what you're editing in the manifest.json file, si
 
 ![](http://i.imgur.com/ubP4q6I.png)
 
+It's a good idea to edit the *name* field too since you'll be making your own custom theme.
+
 ## Changing images
 
 You'll also see an *images* subsection in the manifest.json. Here you can specify what images will be used, and where. To change an image, you'll need to put the changes in the images folder, which can be found in the same place you found your manifest.json. 
@@ -45,11 +47,14 @@ For example, if you'd rather have a different background image on the New Tab pa
 
 If you have a .jpg you want to use instead, that's fine. Just paste it into the images folder and change the line of code in the manifest to refer to your .jpg instead. In this example, if you had an image called cat.jpg, you would change line 22 to `"theme_ntp_background": "images/cat.jpg",`
 
-## Confirming changes and using new theme
+## Loading your new theme 
 
-To see how your new theme looks, you can add it to Chrome. To do this, you'll need to enable Developer Mode. Go to Your chrome settings (chrome://extensions) and check the Developer Mode box. Click **Pack extension** and a window will open allowing you to select your folder. Navigate to your extension's version folder and select it.
+To see how your new theme looks, you can add it to Chrome. To do this, you'll need to enable Developer Mode. Go to Your chrome settings (chrome://extensions) and check the Developer Mode box and restart Chrome. Click **Load unpacked** and a window will open allowing you to select your folder. Navigate to your extension's version folder and select it.
 
 ![](http://i.imgur.com/eipyXle.png) 
 
-Click OK and then you are ready to **Pack Extension**. You will receive a success message saying that Chrome made you a **.crx** and a **.pem**. The .crx is your new theme! Go back to that folder and double click it, opening it in Chrome. There should be a message at the bottom confirming that you want to continue adding the theme - go ahead and click continue, then OK, and that's it. Admire your new theme and give yourself a pat on the back - you just made your own awesome theme! 
+Click OK and your theme will be applied! Admire your new theme and give yourself a pat on the back - you just made your own awesome theme! 
+
+#### .crx loading method
+You can build a .crx with the **Pack Extension** button. You will receive a success message saying that Chrome made you a **.crx** and a **.pem**. The .crx is your new theme. Since Chrome v75 loading locally-packed .crx extensions via left-click/opening in Chrome is blocked. If you'd like to share your theme, you can zip your version folder and have other people unzip it and load unpacked. Alternatively, a workaround is to drag and drop the .crx into the Chrome window, this appears to bypass the security checks for now (as of v99/early 2022). 
 
